@@ -1,0 +1,35 @@
+:root {
+  --first-logo-color: #2196f3;
+  --second-logo-color: #212121;
+  --accent-color: #2196f3;
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --third-title-color: #212121;
+  --main-text-color: #757575;
+  --second-text-color: #ffffff;
+  --third-text-color: #ffffff99;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.header-logo-first {
+  color: var(--first-logo-color);
+}
+.header-logo-second {
+  color: var(--second-logo-color);
+}
