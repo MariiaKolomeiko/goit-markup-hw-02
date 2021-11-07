@@ -5,10 +5,12 @@
   --title-color: #212121;
   --main-text-color: #757575;
   --footer-text-color: rgba(255, 255, 255, 0, 6);
+  --background-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
+  background-color: var(--main-white-color);
 }
 .list {
   list-style: none;
@@ -18,18 +20,17 @@ body {
   text-decoration: none;
 }
 /* --------------------Header----------------------*/
-.header-logo {
+.logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: left;
-}
-.logo-first {
   color: var(--accent-color);
 }
-.logo-second {
+
+.logo-part {
   color: var(--logo-black-color);
 }
 
@@ -47,7 +48,7 @@ body {
 
 /*-------------------- Hero--------------------- */
 .hero {
-  background-color: var(--main-text-color);
+  background-color: #2f303a;
 }
 .hero-title {
   font-weight: 900;
@@ -118,16 +119,11 @@ body {
 }
 
 /* -----------Footer------------- */
-
-.footer-logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.footer {
+  background-color: #2f303a;
 }
 
-.logo-third {
+.footer-logo-part {
   color: var(--main-white-color);
 }
 
@@ -147,4 +143,36 @@ body {
 a[href="https://goo.gl/maps/4tGbcDuvCBDR5g7U7"]
 {
   color: var(--main-white-color);
+}
+
+/* ------------------------------------------------Portfolio page--------------------------------------------------------- */
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--logo-black-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+}
+
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
