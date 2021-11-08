@@ -4,7 +4,7 @@
   --main-white-color: #ffffff;
   --title-color: #212121;
   --main-text-color: #757575;
-  --footer-text-color: rgba(255, 255, 255, 0, 6);
+  --footer-text-color: rgba(255, 255, 255, 0.6);
   --background-color: #f5f4fa;
 }
 body {
@@ -45,7 +45,14 @@ body {
 .header-link:focus {
   color: var(--accent-color);
 }
+.header-contacts .link {
+  color: var(--main-text-color);
+}
 
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-color);
+}
 /*-------------------- Hero--------------------- */
 .hero {
   background-color: #2f303a;
@@ -61,6 +68,7 @@ body {
 }
 
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -147,6 +155,7 @@ a[href="https://goo.gl/maps/4tGbcDuvCBDR5g7U7"]
 
 /* ------------------------------------------------Portfolio page--------------------------------------------------------- */
 .filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
